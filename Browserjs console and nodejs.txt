@@ -1,0 +1,13 @@
+BROWSERjs(console):
+Window is a predefined global object which has functions and attributes, that have to deal with window 
+Location is another predefined object in browsers, that has all the information about the url we have loaded.
+Document which is also another predefined global variable in browsers, has the html which is rendered
+Browsers may have an object named “global”, but it will be the exact one as “window”
+Moduling is not mandatory in client side JavaScript, i.e. in browsers
+
+NODEjs:
+Node doesn’t have a predefined “window” object cause it doesn’t have a window to draw anything.
+Location object is related to a particular url; that means it is for page specific.
+Node doesn’t have “document” object also, cause it never have to render anything in a page.
+Require object is predefined in Node which is used to include modules in the app.
+In Node everything is a module.
